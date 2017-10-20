@@ -22,7 +22,7 @@ const GAME_STATES = {
     START: '_STARTMODE', // Entry point, start the game.
     HELP: '_HELPMODE', // The user is asking for help.
 };
-const APP_ID = undefined; // TODO replace with your app ID (OPTIONAL)
+const APP_ID = amzn1.ask.skill.8219246d-95ab-4655-b11c-309fbf19709e
 
 /**
  * When editing your questions pay attention to your punctuation. Make sure you use question marks or periods.
@@ -32,7 +32,7 @@ const languageString = {
     'en': {
         'translation': {
             'QUESTIONS': questions['QUESTIONS_EN_US'],
-            'GAME_NAME': 'Reindeer Trivia', // Be sure to change this for your skill.
+            'GAME_NAME': 'Silly Sandwich Quiz', // Be sure to change this for your skill.
             'HELP_MESSAGE': 'I will ask you %s multiple choice questions. Respond with the number of the answer. ' +
                 'For example, say one, two, three, or four. To start a new game at any time, say, start game. ',
             'REPEAT_QUESTION_MESSAGE': 'To repeat the last question, say, repeat. ',
@@ -59,13 +59,13 @@ const languageString = {
     'en-US': {
         'translation': {
             'QUESTIONS': questions['QUESTIONS_EN_US'],
-            'GAME_NAME': 'American Reindeer Trivia', // Be sure to change this for your skill.
+            'GAME_NAME': 'Silly Sandwich Quiz', // Be sure to change this for your skill.
         },
     },
     'en-GB': {
         'translation': {
             'QUESTIONS': questions['QUESTIONS_EN_GB'],
-            'GAME_NAME': 'British Reindeer Trivia', // Be sure to change this for your skill.
+            'GAME_NAME': 'British Silly Sandwich Quiz', // Be sure to change this for your skill.
         },
     },
     'de': {
